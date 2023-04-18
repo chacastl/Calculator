@@ -1,0 +1,15 @@
+﻿  Add_Command.cpp
+  Binary_Command.cpp
+  Builder.cpp
+  Div_Command.cpp
+  Eval.cpp
+  Mod_Command.cpp
+  Mul_Command.cpp
+  Num_Command.cpp
+  Sub_Command.cpp
+  driver.cpp
+  Generating Code...
+C:\Users\charl\Desktop\Software_Dev\assignment-3\driver.cpp(79,13): warning C4101: 'e': unreferenced local variable
+C:\Users\charl\Desktop\Software_Dev\assignment-3\driver.cpp(208): warning C4715: 'check': not all control paths return a value
+C:\Users\charl\Desktop\Software_Dev\assignment-3\Builder.cpp(65): warning C4715: 'Builder::clear_op_stack': not all control paths return a value
+  assignment3.vcxproj -> C:\Users\charl\Desktop\Software_Dev\assignment-3\.\assignment3.exe

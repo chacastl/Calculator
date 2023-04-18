@@ -1,0 +1,63 @@
+project (assignment4) {
+	exename = assignment4
+	install = .
+
+ 	 specific (make, gnuace) {
+    		compile_flags += -std=c++11
+ 	 }
+
+	Source_Files {
+		driver.cpp
+		Binary_Command.cpp
+		Add_Command.cpp
+		Sub_Command.cpp
+		Mul_Command.cpp
+		Div_Command.cpp
+		Mod_Command.cpp
+		Num_Command.cpp
+		Eval.cpp
+		Builder.cpp
+
+	}
+	
+	Template_Files {
+	
+		Base_Array.cpp
+		Array.cpp
+		Fixed_Array.cpp
+		Queue.cpp
+		Stack.cpp
+
+	}
+
+	Header_Files {
+	
+		Base_Array.h
+		Array.h
+		Fixed_Array.h
+		Queue.h
+		Stack.h
+		Binary_Command.h
+		Add_Command.h
+		Sub_Command.h
+		Mul_Command.h
+		Div_Command.h
+		Mod_Command.h
+		Num_Command.h
+		Eval.h
+		Builder.h
+		Command.h
+		Visitor.h
+		Abstract_Builder.h
+	}
+
+	Inline_Files {
+		
+		Base_Array.inl
+		Array.inl
+		Fixed_Array.inl
+		Queue.inl
+		Stack.inl
+	}
+
+}
